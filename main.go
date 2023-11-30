@@ -41,7 +41,8 @@ func commandExit() {
 }
 
 func main() {
-	fmt.Println("Welcome to the Gokedex!")
+	fmt.Println("Welcome to the Gokedex!\nUsage:")
+	commandHelp()
 	
 	reader := bufio.NewReader(os.Stdin)
 
